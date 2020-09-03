@@ -1,6 +1,6 @@
 {
   "projects": {
-    "phoneApi": "git@github.com:inmax/phoneApi.git",
-    "phoneApp": "git@github.com:inmax/phoneApp.git"
+    "phoneApi": "https://github.com/inmax/phoneApi.git",
+    "phoneApp": "https://github.com/inmax/phoneApp.git"
   }
 }
