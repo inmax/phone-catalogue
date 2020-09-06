@@ -21,6 +21,10 @@ Please visit : ____________________ for demo
 
 ## Usage
 
+Installing:
+
+`npm i -g meta` will install a `meta` command on your system.
+
 Clone the meta repo:
 
 ```bash
