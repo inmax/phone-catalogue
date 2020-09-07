@@ -1,13 +1,17 @@
 # Phone Catalogue
 
-Product catalogue app for code challenge of GuideSmiths company
+Product catalogue app for [code challenge](https://github.com/inmax/interview-code-challenges) of GuideSmiths company
+
+- [Phone App](https://github.com/inmax/phoneApp.git)
+- [Phone Api](https://github.com/inmax/phoneApi.git)
+
 
 ## Technology
 
 - React Hook
 - Redux
 - React Bootstrap (UI Framework) to Grid
-- Jest
+
 
  ## Demo
 
@@ -15,23 +19,53 @@ Product catalogue app for code challenge of GuideSmiths company
 Please visit : ____________________ for demo
 
 
-## Development
+## Usage
 
-<!-- Clone the repo:
+Installing:
+
+`npm i -g meta` will install a `meta` command on your system.
+
+Clone the meta repo:
+
 ```bash
-$  git clone https://github.com/inmax/filmSearch.git
+$  meta git clone https://github.com/inmax/phone-catalogue.git
 ``` 
 
+## Getting started
+#### [Api](https://github.com/inmax/phoneApi.git)
 In the project app directory, you can run:
 ```bash
-$ npm install
-``` 
-Run locally in a web browser:
-```bash
-npm start
-``` 
-For production environments
+$ cd phoneApi
 
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm start
+
+``` 
+
+#### [App](https://github.com/inmax/phoneApp.git)
+In the project app directory, you can run:
 ```bash
-npm run build
-``` -->
+$ cd phoneApp
+
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:8080
+$ npm start
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# deploy
+$ npm run deploy -- --remote=<remote>
+``` 
+
+Environment variables
+```bash
+URL_API
+
+```
