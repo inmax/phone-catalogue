@@ -1,0 +1,23 @@
+{
+  "name": "phone-catalogue",
+  "version": "1.0.0",
+  "description": "Product catalogue app for [code challenge](https://github.com/inmax/interview-code-challenges) of GuideSmiths company",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start-app": "cd phoneApp & npm start",
+    "start-api": "cd phoneApi && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inmax/phone-catalogue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inmax/phone-catalogue/issues"
+  },
+  "homepage": "https://github.com/inmax/phone-catalogue#readme"
+}
